@@ -1,0 +1,101 @@
+body {
+  background-color: #d8c7a1;
+  font-family: "Georgia", serif;
+  margin: 0;
+  padding: 40px;
+  color: #2a2015;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 245, 230, 0.85);
+  padding: 30px;
+  border: 2px solid #4a3c2a;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #3a2d1e;
+}
+
+.choices {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+a.choice {
+  display: block;
+  padding: 15px;
+  background: #b59d74;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid #4a3c2a;
+  transition: 0.3s;
+}
+
+a.choice:hover {
+  background: #4a3c2a;
+  color: #fcebd2;
+  transform: scale(1.03);
+}
+
+.illustration {
+  width: 60%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 3px solid #4a3c2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+  width: 350px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0e3a47;
+  margin: 0 0 12px 0;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #2e6d7c;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+}
+
+.author {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2e6d7c;
+}
